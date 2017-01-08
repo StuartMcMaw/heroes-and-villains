@@ -5,15 +5,71 @@ body{
   background: #f2f7f4;
     padding: 0;
     margin: 0;
-    z-index: 1;
     font-family: 'Merriweather', serif;
 
 
   
 }
 
+blockquote {
+  background: #f2f7f4;
+  border-left: 10px solid #black;
+  color: black;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 15px;
+}
+blockquote:before {
+  color: black;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after{
+  color: black;
+  content: close-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.4em;
+  padding-top: 10px;
+}
+
+blockquote p {
+  display: inline;
+}
+
+
+.intro{clear:both;
+border: solid;
+border-radius: 5px;
+background-color: beige;
+margin-bottom: 50px;
+padding: 25px;}
+}
+
+footer{
+    width: 100%;
+    margin: 50px;
+}
+
+.no{font-size: 20px;
+margin-top: 60px;
+width: 100%}
+
+
 #heading{
     font-size: 50px;
+}
+
+#navtext{
+    font-size: 35px;
+    display: none;
 }
 
 
@@ -238,6 +294,12 @@ nav a:hover {
 
 
 
+.front{
+    float: right;
+    z-index: 1;
+}
+
+
 .logo {
   float: left;
   color: #fff;
@@ -263,20 +325,32 @@ section .inner {
   padding-top: 200px;
 }
 
-.icon{
-    z-index: 3;
-}
+
 
 .mobile{
-    z-index: 2px;
+    z-index: 2;
+    height: 100%;
+    position: fixed;
+    
 }
+
+.mobiletext{
+    font-size: 20px;
+}
+
 
 
 
 
 Responsive
 @media (min-width:771px){
-.mobile{display: ;}
+.mobile{display: ;    
+    }
+    .nav{display: block;
+    z-index: 3;}
+    
+
+
 }
 
 

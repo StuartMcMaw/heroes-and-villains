@@ -24,10 +24,11 @@ display: none;
         margin-bottom: -100px;
     }
 
-a {
+.test {
   position: absolute;
   top: 20px;
   left: 20px;
+  z-index: 1;
   width: 36px;
   height: 36px;
   box-sizing: border-box;
@@ -35,7 +36,6 @@ a {
   border-radius: 50%;
   border: 1px solid rgba(0,40,60,.2);
   tap-highlight-color: transparent;
-
 }
 span {
   display: block;
@@ -44,8 +44,6 @@ span {
   background: rgb(0,40,60);
   transition: .7s;
   pointer-events: none;
-
-    
 }
 span:nth-child(2) {
   margin: 3px 0;
@@ -72,16 +70,10 @@ nav {
   top: 0;
   bottom: 0;
   left: 0;
-  background: black;
+  background: rgb(0,40,60);
   transform: translateX(-100%);
   transition: .5s;
-  font-size: 50px;
-  padding: 10px;
-  font-style: normal;
-  color: white;
-    z-index: 2;
 }
-
 .open + nav {
   transform: none;
 }
@@ -89,6 +81,5 @@ code {
   color: transparent;
   font-size: 0;
 }
-
 
     
