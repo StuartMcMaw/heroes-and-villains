@@ -1,1 +1,1 @@
-- [Interactions](https://StuartMcMaw.github.io/heroes-and-villains/index.html)
+- [Interactions](https://StuartMcMaw.github.io/heroes-and-villains/interactions/index.html)
