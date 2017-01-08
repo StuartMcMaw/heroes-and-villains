@@ -1,1 +1,0 @@
-- [Responsive](https://StuartMcMaw.github.io/heroes-and-villains/responsive/css/index.html)
