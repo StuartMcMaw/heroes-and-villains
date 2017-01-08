@@ -135,10 +135,7 @@ a{
 }
 
 
-.img-container:hover .img-caption{
-	opacity: 0;
-    cursor: default;
-}
+
 
 
 
@@ -149,17 +146,8 @@ a{
 
 
 
-.img-container:hover .img-caption{
-	top: 0;
-	left: 0;
-	transition: all 0.6s ease-out;
-    cursor: default;
-}
 
-.img-container:hover .img-caption {
-	opacity: 1;
-    cursor: default;
-}
+
 
 
 .adler{clear: both;
@@ -288,9 +276,6 @@ nav a {
 
 
 
-nav a:hover {
-  background: red;
-}
 
 
 
