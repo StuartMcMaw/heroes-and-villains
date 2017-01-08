@@ -70,7 +70,7 @@ nav {
   top: 0;
   bottom: 0;
   left: 0;
-  background: rgb(0,40,60);
+  background: black;
   transform: translateX(-100%);
   transition: .5s;
 }
